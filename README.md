@@ -21,5 +21,4 @@ It implements controlled retrieval with top-k selection, similarity thresholding
 - Database: SQLite
 
 ### Pipeline
-Upload → Preprocess → Chunk → Embed → Store (FAISS)  
-Query → Intent → Embed → Retrieve → Filter → LLM → Answer
+Upload → Preprocess → Chunk → Embed → Store (FAISS) -> Query → Intent → Embed → Retrieve → Filter → LLM → Answer
